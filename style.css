@@ -7,7 +7,7 @@ body{
   background-color: #F5F8FF;
 }
 
-/*==================== google fonts ===============================*/
+
 .noto{
    font-family: "Noto Serif", serif;
 }
@@ -16,13 +16,13 @@ body{
   font-family: "Inter", sans-serif;
 }
 
-/*====================== common style =================================*/
+
 .container{
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/*========================navbar =====================================*/
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -42,14 +42,14 @@ body{
   font-size: 1.1rem;
 }
 .active{
-  color: #252432 !important;
+  color: #252432 ;
   font-weight: 600;
 }
 .cart{
-  color: #000 !important;
+  color: #000 ;
 }
 
-/*==================== banner section ============================*/
+
 .banner{
   margin-top: 200px;
   display: flex;
@@ -71,7 +71,7 @@ body{
 }
 
 
-/* ====================== Plants Section =========================== */
+
 .plant-heading{
   margin-top: 120px;
   text-align: center;
@@ -90,7 +90,7 @@ width: 888px;
 margin: 16px auto;
 }
 
-/*==================== card ===================================*/
+
 .card-parents{
   margin-top: 50px;
   display: grid;
@@ -129,7 +129,7 @@ margin: 16px auto;
   margin-top: 30px;
 }
 
-/*===================== flower lover ============================*/
+
 .flower-lover{
   margin-top: 180px;
   display: flex;
@@ -140,17 +140,14 @@ margin: 16px auto;
 .lover-left{
   position: relative;
 }
- @keyframes spin {
-  100%{
-    transform: rotate(360deg);
-  }
- } 
+
+
 .img-c{
   position: absolute;
   width: 286px;
   top: -116px;
   left: 369px;
-  animation: spin 4s ease-in-out infinite;
+  
 }
 .lover-right h1{
   font-size: 3.3rem;
@@ -164,7 +161,7 @@ margin: 16px auto;
   margin-top: 20px;
 }
 
-/*===================== Latest Deals ============================*/
+
 .plant-parent{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -226,7 +223,7 @@ margin-bottom: 10px;
   border-bottom: 2px solid white; 
 }
 
-/*========================= join section ============================*/
+
 .join{
 background-image: url(./assets/news-letter-bg.png);
 background-repeat: no-repeat;
@@ -267,7 +264,6 @@ background-size: cover;
 
 }
 
-/*========================== footer ====================================*/
 .footer{
   background-color: #FAFCFF;
   margin-top: 50px;
